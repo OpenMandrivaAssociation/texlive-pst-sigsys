@@ -55,6 +55,7 @@ connecting a list of nodes using any node-connecting macro.
 %doc %{_texmfdistdir}/doc/generic/pst-sigsys/pst-sigsys-doc.bib
 %doc %{_texmfdistdir}/doc/generic/pst-sigsys/pst-sigsys-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-sigsys/pst-sigsys-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +66,5 @@ connecting a list of nodes using any node-connecting macro.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
