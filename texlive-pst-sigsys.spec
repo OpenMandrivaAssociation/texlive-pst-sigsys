@@ -56,3 +56,17 @@ connecting a list of nodes using any node-connecting macro.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.4-2
++ Revision: 755460
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.4-1
++ Revision: 719394
+- texlive-pst-sigsys
+- texlive-pst-sigsys
+- texlive-pst-sigsys
+- texlive-pst-sigsys
+
