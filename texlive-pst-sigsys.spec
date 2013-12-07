@@ -6,7 +6,7 @@
 # catalog-version 1.4
 Name:		texlive-pst-sigsys
 Version:	1.4
-Release:	3
+Release:	4
 Summary:	Support of signal processing-related disciplines
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-sigsys
