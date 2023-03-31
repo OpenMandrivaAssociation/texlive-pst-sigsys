@@ -1,6 +1,6 @@
 Name:		texlive-pst-sigsys
 Version:	21667
-Release:	1
+Release:	2
 Summary:	Support of signal processing-related disciplines
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-sigsys
